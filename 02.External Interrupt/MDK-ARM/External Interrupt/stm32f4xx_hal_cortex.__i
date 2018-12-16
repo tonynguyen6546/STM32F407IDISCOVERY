@@ -1,0 +1,6 @@
+-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include --C99
+-I.\RTE\_External_Interrupt
+-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include
+-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx --C99
+-o "external interrupt\stm32f4xx_hal_cortex.o" --omf_browse "external interrupt\stm32f4xx_hal_cortex.crf" --depend "external interrupt\stm32f4xx_hal_cortex.d" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c"
